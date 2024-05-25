@@ -60,6 +60,15 @@ const TAB_DATA = [
                 <li>Udemy Web Development Bootcamp</li>
             </ul>
         )
+    },
+    {
+        title : "Experiences",
+        id: "experiences",
+        content: (
+            <ul className='list-disc pl-2'>
+                <li>Backend Developer at iBotnoi</li>
+            </ul>
+        )
     }
 ]
 
@@ -117,6 +126,10 @@ const AboutSection = () => {
                 <TabButton selectTab={() => handleTabChange("certifications")} active={tab === "certifications"}>
                     {" "}
                     Certifications{" "}
+                </TabButton>
+                <TabButton selectTab={() => handleTabChange("experiences")} active={tab === "experiences"}>
+                    {" "}
+                    Experiences{" "}
                 </TabButton>
             </div>
             <div className='mt-8'>{currentTab ? currentTab.content : "Content not available"}</div>
