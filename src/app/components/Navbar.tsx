@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from "react";
-import Link from "next/link";
+import { Link } from "react-scroll";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
@@ -26,9 +26,13 @@ const NavBar = () => {
         <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
             <div className="flex flex-wrap items-center justify-between mx-auto px-5 py-2 ">
                 <Link 
-                    href={"/"} 
-                    className="text-2xl md:text-5xl text-white font-semibold">
-                    LOGO
+                    to="home"
+                    spy={true} 
+                    smooth={true} 
+                    offset={-100} 
+                    duration={500} 
+                    className="text-2xl md:text-5xl text-white font-semibold cursor-pointer">
+                    N
                 </Link>
                 <div className="mobile-menu block md:hidden">
                     {
