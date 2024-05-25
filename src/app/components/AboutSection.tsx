@@ -9,13 +9,37 @@ const TAB_DATA = [
         title : "Skills",
         id: "skills",
         content: (
-            <ul className='list-disc pl-2'>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>React</li>
-                <li>Go-Fiber</li>
-                <li>Javascript</li>
-            </ul>
+            <div className='flex flex-row justify-start'>
+                <div className='mr-auto'>
+                    <h2 className='text-xl font-semibold mb-3 justify-start'>Backend</h2>
+                    <ul className='list-disc pl-2'>
+                        <li>Go-Fiber</li>
+                        <li>RESTful APIS</li>
+                        <li>NodeJS</li>
+                        <li>ExpressJS</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                <div className='mx-auto'>
+                    <h2 className='text-xl font-semibold mb-3 justify-start'>Frontend</h2>
+                    <ul className='list-disc pl-2'>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>TailwindCSS</li>
+                    </ul>
+                </div>
+                <div className='mx-auto'>
+                    <h2 className='text-xl font-semibold mb-3 justify-start'>Tools</h2>
+                    <ul className='list-disc pl-2'>
+                        <li>Postman</li>
+                        <li>Git</li>
+                        <li>3T Studio</li>
+                        <li>DBGate</li>
+                    </ul>
+                </div>
+            </div>
         )
     },
     {
@@ -41,7 +65,7 @@ const TAB_DATA = [
 
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
-  const [isPending, startTransition] = useTransition();
+  const [_, startTransition] = useTransition();
 
   const handleTabChange = (id : any) => {
     startTransition(() => {
@@ -70,7 +94,7 @@ const AboutSection = () => {
         animate={{opacity: 1, y: 0}}
         transition={{ duration: 0.4}} 
         className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-            <h2 className='text-3xl font-bold text-white mb-4'>About Me</h2>
+            <h2 className='text-3xl font-bold text-white mt-4 mb-10'>About Me</h2>
             <p className='text-base lg:text-lg'>
                 Hello! My name is Rachanon, and I am an computer engineering student
                 with a passion for technology and problem-solving. As someone deeply
