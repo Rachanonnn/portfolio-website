@@ -30,7 +30,7 @@ const ProfileSection = () => {
                     />
                 </h1>
                 <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl ">
-                    I am an computer engineering student with a passion for web development and software development. I am always looking for new and exciting projects to work on.
+                    I am a computer engineering student with a passion for web development and software development. I am always looking for new and exciting projects to work on.
                 </p>
                 <div>
                     <Link 
