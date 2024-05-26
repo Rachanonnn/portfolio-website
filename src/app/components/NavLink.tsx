@@ -1,7 +1,7 @@
 import {Link} from 'react-scroll';
 
 
-const NavLink = ({ href, title} : {href: any, title: any}) => {
+const NavLink = ({ href, title} : {href: string, title: string}) => {
     return (
         <Link
         to={href} 

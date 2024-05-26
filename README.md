@@ -37,12 +37,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## To-do List
 
-[X] Navbar
+- [x] Navbar
 
-[x] Profile Section
+- [x] Profile Section
 
-[x] About Section
+- [x] About Section
 
-[x] Project Section
+- [x] Project Section
 
-[X] Footer
+- [x] Footer

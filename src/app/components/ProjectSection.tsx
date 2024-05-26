@@ -31,7 +31,7 @@ const ProjectSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
-  const handleTabChange = (newTag : any) => {
+  const handleTabChange = (newTag : string) => {
     setTag(newTag);
   };
 
