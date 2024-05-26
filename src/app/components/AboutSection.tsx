@@ -47,8 +47,10 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Computer Engineering and Digital Technology at Chulalongkorn University</li>
-                <li>Math-Sci (Gifted Program), Suankularb Wittayalai Thonburi School</li>
+                <li className='mb-1'>Bachelor Degree</li>
+                <p className='mb-4'> Computer Engineering and Digital Technology, Chulalongkorn University</p>
+                <li className='mb-1'>High School</li>
+                <p>Math-Sci (Gifted Program), Suankularb Wittayalai Thonburi School</p>
             </ul>
         )
     },
@@ -57,7 +59,7 @@ const TAB_DATA = [
         id: "certifications",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Udemy Web Development Bootcamp</li>
+                <li>Udemy Web Development Bootcamp 2024</li>
             </ul>
         )
     },
@@ -66,7 +68,7 @@ const TAB_DATA = [
         id: "experiences",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Backend Developer Internship at iBotnoi</li>
+                <li>2024 | Backend Developer Internship at iBotnoi</li>
             </ul>
         )
     }
