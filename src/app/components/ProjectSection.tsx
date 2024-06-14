@@ -20,7 +20,7 @@ const projectsData = [
     id: 2,
     title: "Ecommerce (On-going)",
     description:
-      "Our e-commerce project leverages Go Fiber for the backend and React/Next.js for the frontend. It's straightforward, enabling users to create accounts, add products to their carts, and complete purchases. Users can easily sign up using Google authentication and update their profiles as needed.",
+      "Our e-commerce project leverages Go Fiber for the backend and React/Next.js for the frontend. It's, enabling users to create accounts, add products to their carts, and complete purchases. Users can easily sign up using Google and update their profiles.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitURL: "https://github.com/Rachanonnn/go-ecommerce",
