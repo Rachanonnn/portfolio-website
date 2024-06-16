@@ -32,7 +32,7 @@ const projectsData = [
     description:
       "The Complete Web Development Bootcamp, learn to code and become a full-stack web developer with the HIGHEST RATED courses in the history of Udemy. I have completed this course and I have learned a lot from it.",
     image:
-      "https://media.discordapp.net/attachments/1240950010473091155/1240950372055384185/UC-9e61f8ba-bfdc-4ce7-a93c-7652f12b69ef.jpg?ex=666c0518&is=666ab398&hm=bbcad32600bde8b263d5053875a383b3a792bd7e8ba74cfac2ec19642eac957a&=&format=webp&width=828&height=616",
+      "https://udemy-certificate.s3.amazonaws.com/image/UC-9e61f8ba-bfdc-4ce7-a93c-7652f12b69ef.jpg?v=1715932665000",
     tag: ["All", "Certificate"],
     gitURL:
       "https://www.udemy.com/certificate/UC-9e61f8ba-bfdc-4ce7-a93c-7652f12b69ef/",
