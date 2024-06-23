@@ -18,6 +18,7 @@ const TAB_DATA = [
             <li>NodeJS</li>
             <li>ExpressJS</li>
             <li>MongoDB</li>
+            <li>Redis</li>
           </ul>
         </div>
         <div className="mx-auto">
@@ -25,6 +26,8 @@ const TAB_DATA = [
           <ul className="list-disc pl-2">
             <li>HTML</li>
             <li>CSS</li>
+            <li>React</li>
+            <li>Next.js</li>
             <li>JavaScript</li>
             <li>TypeScript</li>
             <li>TailwindCSS</li>
@@ -37,6 +40,8 @@ const TAB_DATA = [
             <li>Git</li>
             <li>3T Studio</li>
             <li>DBGate</li>
+            <li>Firebase(Basic)</li>
+            <li>AWS (S3)</li>
           </ul>
         </div>
       </div>
