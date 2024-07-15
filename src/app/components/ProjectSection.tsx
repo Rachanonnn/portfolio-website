@@ -24,7 +24,7 @@ const projectsData = [
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitURL: "https://github.com/Rachanonnn/go-ecommerce",
-    previewURL: "",
+    previewURL: "https://rachanonnn.github.io/go-ecommerce/",
   },
   {
     id: 3,
