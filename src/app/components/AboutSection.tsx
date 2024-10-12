@@ -110,7 +110,7 @@ const AboutSection = () => {
         >
           <h2 className="text-3xl font-bold text-white mt-4 mb-10">About Me</h2>
           <p className="text-base lg:text-lg">
-            Hello! My name is Rachanon, and I am a computer engineering student
+            Hello! My name is Rachanon, and I am an computer engineering student
             with a passion for technology and problem-solving. As someone deeply
             interested in the intersection of cybersecurity, web development,
             and data engineering, I am eager to contribute my skills and
