@@ -12,8 +12,7 @@ const projectsData = [
       "Gear Up is a car rental web application that allows users to create an account, rent cars from providers, and checkout while viewing their rental history. Users also have the option to register as providers, offering their cars for rent with detailed information.",
     image: "/images/projects/1.jpg",
     tag: ["All", "Web"],
-    gitURL:
-      "https://github.com/2110503TACEDT66/cedt-se-project-borisat_yaeng_tua",
+    gitURL: "",
     previewURL: "https://cedt-se-project-frontend.vercel.app/",
   },
   {

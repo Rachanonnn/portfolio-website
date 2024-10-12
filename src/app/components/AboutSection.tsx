@@ -10,20 +10,22 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <div className="flex flex-row justify-start">
-        <div className="mr-auto">
+        <div className="mr-4 md:mr-auto">
           <h2 className="text-xl font-semibold mb-3 justify-start">Backend</h2>
-          <ul className="list-disc pl-2">
+          <ul className="list-disc pl-2 text-sm md:text-[15px]">
             <li>Go-Fiber</li>
             <li>RESTful APIS</li>
             <li>NodeJS</li>
             <li>ExpressJS</li>
+            <li>BunJS</li>
+            <li>ElysiaJS</li>
             <li>MongoDB</li>
             <li>Redis</li>
           </ul>
         </div>
-        <div className="mx-auto">
+        <div className="mr-4 md:mx-auto">
           <h2 className="text-xl font-semibold mb-3 justify-start">Frontend</h2>
-          <ul className="list-disc pl-2">
+          <ul className="list-disc pl-2 text-sm md:text-[15px]">
             <li>HTML</li>
             <li>CSS</li>
             <li>React</li>
@@ -33,15 +35,16 @@ const TAB_DATA = [
             <li>TailwindCSS</li>
           </ul>
         </div>
-        <div className="mx-auto">
+        <div className="md:mx-auto">
           <h2 className="text-xl font-semibold mb-3 justify-start">Tools</h2>
-          <ul className="list-disc pl-2">
+          <ul className="list-disc pl-2 text-sm md:text-[15px]">
             <li>Postman</li>
             <li>Git</li>
             <li>3T Studio</li>
             <li>DBGate</li>
             <li>Firebase(Basic)</li>
             <li>AWS (S3)</li>
+            <li>Supabase</li>
           </ul>
         </div>
       </div>
